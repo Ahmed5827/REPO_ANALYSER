@@ -1,0 +1,4 @@
+requests
+google-genai
+python-dotenv
+pathlib
