@@ -57,6 +57,10 @@ class AIService:
         Code to test:
         {code_summary}
         
+        STRICT RULES:
+        1. Output ONLY a valid file content. 
+        2. DO NOT include any analysis, explanations, or markdown formatting.
+        
         Generate a test file with imports, test cases, and assertions. 
         Detect the language and output valid code only."""
         

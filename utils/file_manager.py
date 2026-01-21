@@ -9,14 +9,8 @@ def save_results(repo_name, readme_content, test_content, code_files):
         f.write(readme_content)
     print(f"README saved to {output_dir}/README.md")
 
-    # Determine test file extension
     ext = ".txt"
-    if code_files:
-        first_file = code_files[0]['name']
-        if first_file.endswith('.py'):
-            ext = ".py"
-        elif first_file.endswith(('.js', '.ts')):
-            ext = ".test.js"
+
 
     test_filename = f"test_generated{ext}"
     
